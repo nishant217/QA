@@ -12,7 +12,6 @@ const initTheme = () => {
   }
 };
 initTheme();
-
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
