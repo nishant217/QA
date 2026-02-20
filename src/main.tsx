@@ -11,6 +11,7 @@ const initTheme = () => {
     document.documentElement.classList.add('light');
   }
 };
+
 initTheme();
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
