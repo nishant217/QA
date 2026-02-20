@@ -2,7 +2,6 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-
 // Initialize theme BEFORE React renders to prevent flash
 const initTheme = () => {
   const stored = localStorage.getItem('nyneos-theme');
